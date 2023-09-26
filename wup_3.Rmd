@@ -77,6 +77,6 @@ We don't have evidence that thee is a difference in alcohol consumption between 
 
 ## Conclusions
 
-
+Is there a difference between the alcohol consumed between the row you choose to sit in? After screening the information, the data indicates that there is a difference between the alcohol consumed depends on the row you sit in. The graphical result show the amount consumed and the P value is below 0.05 and we then rejected the null hypothesis. The result is that there is a difference between the alcohol consumed and the location you are to sit. 
 
 
