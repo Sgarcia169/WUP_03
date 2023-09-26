@@ -62,8 +62,21 @@ The data indicates that the mean/median of the back row drinks 3 times more alco
 
 ## Inferential Tests
 
+```{r}
+model1 <- aov(alcohol~Seat,data=davisdata)
+summary.aov(model1)
+```
 
+The P value is less than 0.05, so we reject the null hypothesis. This concludes that is a difference between the alcohol consumed based on where someone sits.  
+
+```{r}
+plot(TukeyHSD(model1))
+```
+
+We don't have evidence that thee is a difference in alcohol consumption between middle and front rows. The only difference we found was that the back row drinks more than the front. 
 
 ## Conclusions
+
+
 
 
