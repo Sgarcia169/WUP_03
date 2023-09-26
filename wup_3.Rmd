@@ -54,7 +54,15 @@ The graph shows that the people in the back consume 3 times more alcohol compare
 
 ## Numerical Summarys 
 
+```{r}
+favstats(alcohol~Seat, data=davisdata)
+```
+
+The data indicates that the mean/median of the back row drinks 3 times more alcohol in a week compared to both the middle and front. 
+
 ## Inferential Tests
+
+
 
 ## Conclusions
 
